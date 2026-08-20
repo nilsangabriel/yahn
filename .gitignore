@@ -3,6 +3,12 @@
 # dependencies
 node_modules/
 
+# Editor files and directories
+.vscode/
+.idea/
+.zed/
+.claude/
+
 # Expo
 .expo/
 dist/
