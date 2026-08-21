@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <View className="flex-1 bg-gray-100">
       {/* Header */}
-      <SafeAreaView className="bg-[#312c93]">
-        <View className="h-14 flex-row items-center justify-between px-4 border-b border-gray-300 border-s-slate-500">
-          <Text className="text-lg font-semibold text-white">The Hacker News</Text>
+      <SafeAreaView className="bg-[#312c93] border-b border-gray-300 border-s-slate-500">
+        <View className="h-14 flex-row items-center justify-between px-4">
+          <Text className="text-lg font-semibold text-white">HACKQUIRER</Text>
           <Text className="text-white">Search</Text>
         </View>
       </SafeAreaView>

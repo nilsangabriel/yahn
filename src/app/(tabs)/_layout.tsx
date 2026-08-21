@@ -1,13 +1,16 @@
 import { Tabs } from "expo-router";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { Image } from "react-native";
+
+import homeIcon from "@/assets/images/tabIcons/home.png";
+import newsletterIcon from "@/assets/images/tabIcons/envelope.png";
+import webinarsIcon from "@/assets/images/tabIcons/play-alt.png";
 
 export default function TabsLayout() {
-  const insets = useSafeAreaInsets();
 
   return (
     <Tabs screenOptions={{
       headerShown: false,
-      tabBarShowLabel: false,
+      tabBarShowLabel: true,
       tabBarStyle: {
         position: "absolute",
       }
@@ -16,6 +19,15 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: "Home",
+          tabBarIcon: ({ size }) => (
+            <Image
+              source={homeIcon}
+              style={{
+                width: size,
+                height: size,
+              }}
+            />
+          ),
         }}
       />
 
@@ -23,6 +35,15 @@ export default function TabsLayout() {
         name="newsletter"
         options={{
           title: "Newsletter",
+          tabBarIcon: ({ size }) => (
+            <Image
+              source={newsletterIcon}
+              style={{
+                width: size,
+                height: size,
+              }}
+            />
+          ),
         }}
       />
 
@@ -30,6 +51,15 @@ export default function TabsLayout() {
         name="webinars"
         options={{
           title: "Webinars",
+          tabBarIcon: ({ size }) => (
+            <Image
+              source={webinarsIcon}
+              style={{
+                width: size,
+                height: size,
+              }}
+            />
+          ),
         }}
       />
     </Tabs>
