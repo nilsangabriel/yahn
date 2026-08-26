@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "hackquirer",
-    "slug": "hackquirer",
+    "name": "yahn",
+    "slug": "yahn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "hackquirer",
+    "scheme": "yahn",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
