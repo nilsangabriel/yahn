@@ -1,7 +1,8 @@
+import "../global.css";
 import Search from "@/components/search";
-import "../global.css"
-import { ScrollView, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import NewsStory from "@/components/news-story";
 
 export default function Home() {
   return (
@@ -14,15 +15,10 @@ export default function Home() {
         </View>
       </SafeAreaView>
       {/* Body */}
-      <ScrollView className="mt-6">
-        <View className="items-center justify-center">
-          <Text className="text-xl font-medium text-blue-500">
-            Welcome to home!
-          </Text>
-          {/* More content */}
-          <View className="h-[1000px]" />
-        </View>
-      </ScrollView>
+      <View className="items-center justify-center">
+        {/* Story Content */}
+        <NewsStory />
+      </View>
     </View>
   );
 }
