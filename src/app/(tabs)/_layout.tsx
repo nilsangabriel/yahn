@@ -30,38 +30,6 @@ export default function TabsLayout() {
           ),
         }}
       />
-
-      <Tabs.Screen
-        name="newsletter"
-        options={{
-          title: "Newsletter",
-          tabBarIcon: ({ size }) => (
-            <Image
-              source={newsletterIcon}
-              style={{
-                width: size,
-                height: size,
-              }}
-            />
-          ),
-        }}
-      />
-
-      <Tabs.Screen
-        name="webinars"
-        options={{
-          title: "Webinars",
-          tabBarIcon: ({ size }) => (
-            <Image
-              source={webinarsIcon}
-              style={{
-                width: size,
-                height: size,
-              }}
-            />
-          ),
-        }}
-      />
     </Tabs>
   );
 }
