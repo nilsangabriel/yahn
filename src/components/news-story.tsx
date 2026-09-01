@@ -19,7 +19,7 @@ export default function NewsStory() {
 
     async function load() {
       try {
-          const data = await getStories(30);
+          const data = await getStories(100);
           if (isMounted)
             setStories(data);
       } catch (err: any) {
@@ -29,7 +29,7 @@ export default function NewsStory() {
           if (isMounted)
             isLoading(false);
       }
-    };
+    }
 
     load();
 

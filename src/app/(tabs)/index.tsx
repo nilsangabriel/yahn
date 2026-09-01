@@ -15,7 +15,7 @@ export default function Home() {
         </View>
       </SafeAreaView>
       {/* Body */}
-      <View className="items-center justify-center">
+      <View className="flex-1">
         {/* Story Content */}
         <NewsStory />
       </View>
