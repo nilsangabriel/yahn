@@ -21,7 +21,7 @@ export async function getItem(storyId: number) {
   const response = await fetch(`${base_url}/item/${storyId}.json`);
 
   if (!response.ok)
-    throw new Error(`Faled to fetch story ${storyId}, Error: ${response.status}`);
+    throw new Error(`Failed to fetch story ${storyId}, Error: ${response.status}`);
 
   return response.json();
 }
