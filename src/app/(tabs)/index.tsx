@@ -1,4 +1,4 @@
-import "../global.css";
+import "@/app/global.css";
 import Search from "@/components/search";
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
