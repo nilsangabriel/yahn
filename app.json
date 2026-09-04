@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "yahn",
-    "slug": "yahn",
+    "name": "yahna",
+    "slug": "yahna",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "yahn",
+    "scheme": "yahna",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"

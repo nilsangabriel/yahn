@@ -10,7 +10,7 @@ export default function Home() {
       {/* Header */}
       <SafeAreaView className="bg-[#312c93] border-b border-gray-300 border-s-slate-500">
         <View className="h-9 flex-row items-center justify-between px-4 mt-3">
-          <Text className="text-2xl font-semibold text-white">YAHN</Text>
+          <Text className="text-2xl font-semibold text-white">YAHNA</Text>
           <Search/>
         </View>
       </SafeAreaView>
